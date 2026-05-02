@@ -1,7 +1,20 @@
 [
     {
-        "amount": 100.0,
-        "category": "Food",
-        "note": "Lunch"
+        "amount": 1200.0,
+        "category": "Gym",
+        "note": "Gym fees",
+        "date": "2026-05-02 16:59:02"
+    },
+    {
+        "amount": 700.0,
+        "category": "Foods",
+        "note": "Grocery items",
+        "date": "2026-05-02 20:16:44"
+    },
+    {
+        "amount": 1200.0,
+        "category": "Dinner",
+        "note": "outside dinner with family",
+        "date": "2026-05-02 20:22:39"
     }
 ]
