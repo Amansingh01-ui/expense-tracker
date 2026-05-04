@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-orange)
+
 # Expense Tracker (Python CLI App)
 
 A simple yet powerful Expense Tracker built with Python that helps users manage daily expenses, monitor spending habits, and export records for analysis.
