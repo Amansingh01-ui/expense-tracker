@@ -45,3 +45,5 @@ This project helped strengthen:
 Aman Singh 
 
 ### Web Link: https://expense-tracker-kmyb.onrender.com/
+
+<img width="1919" height="803" alt="image" src="https://github.com/user-attachments/assets/17b4b98c-3475-4621-8505-335dff311c27" />
