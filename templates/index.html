@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Total Spending: ₹{{ total }}</h2>
+
+<h3>Category Summary</h3>
+<ul>
+    {% for k, v in summary.items() %}
+        <li>{{ k }} : ₹{{ v }}</li>
+    {% endfor %}
+</ul>
+
+<h3>All Expenses</h3>
+
+<table border="1">
+    <tr>
+        <th>#</th>
+        <th>Amount</th>
+        <th>Category</th>
+        <th>Note</th>
+        <th>Date</th>
+        <th>Actions</th>
+    </tr>
+
+    {% for exp in data %}
+    <tr>
+        <td>{{ loop.index }}</td>
+        <td>₹{{ exp.amount }}</td>
+        <td>{{ exp.category }}</td>
+        <td>{{ exp.note }}</td>
+        <td>{{ exp.get("date", "N/A") }}</td>
+        <td>
+            <a href="/edit/{{ loop.index0 }}">Edit</a>
+            <a href="/delete/{{ loop.index0 }}">Delete</a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}
